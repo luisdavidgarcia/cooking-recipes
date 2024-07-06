@@ -5,7 +5,6 @@ import RecipeList from './RecipeList';
 export default function RecipesPage() {
     const recipes: Recipe[] = getAllRecipes()
     
-
     return(
         <div>
             <h1>Come on and Cook It Up</h1>
