@@ -10,8 +10,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <body>
         <nav>
           <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
           <Link href="/recipes">Recipes</Link>
+          <Link href="/food_adventures">Food Adventures</Link>
+          <Link href="/about">About</Link>
         </nav>
         {children}
       </body>
